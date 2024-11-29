@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: #D5D0C4;
+    --color-secondary : #2F4F4F;
+    --color-tertiary:  #D6D1C6;
+    --color-quaternary: #D5D0C5;
+    --color-quinary: #D6D1C7;
+    --color-senary: #D6D1C5;
+    --background-color: rgb(212, 208, 196);
+}  
+
+.main-background {
+    background-color: var(--background-color)!important;
+}
+
+.main-color {
+    background-color: var(--color-secondary)!important;
+}
